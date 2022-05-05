@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        h2{
+            text-align: center;
+            color: red;
+            font-style: italic;
+            font-family: "DejaVu Sans Mono";
+            padding: 30px;
+            background-color: blue;
+        }
+        form{
+            text-align: center;
+            color: blue;
+            font-style: italic;
+            font-family: "DejaVu Sans Mono";
+        }
+        }
+        label{
+            padding: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="heading.html">
+  <label for="fname">First Name</label><br>
+    <input type="text"id="fname" placeholder="Enter First Name"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text"id="lname" placeholder="Enter Last Name"><br>
+    <label for="barua">Email Address</label><br>
+    <input type="email"id="barua" placeholder="Enter Email Address"><br>
+    <label for="courses">Select Course</label>
+    <select name="Course" id="courses">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="php">Php</option>
+    </select><br>
+    <label for="image">upload</label>
+    <input type="file"id="image"><br>
+    gender <br>
+    <label for="male">Male</label>
+    <input type="radio"id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio"id="female" name="gender">
+    <label for="adults">Adults</label>
+    <input type="radio"id="adults" name="gender"><br>
+    <label for="dor">Date Of Registration</label><br>
+    <input type="date"id="dor"><br>
+    <label for="pas">Password</label><br>
+    <input type="password"id="pas" placeholder="Enter Password"><br>
+    <input type="submit"value="Register"><br>
+    <button type="button"onclick="alert('Enjoy your long holiday')">Click For Holiday</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.fruits{
+    border: 2px solid blue;
+    text-align: center;
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    color: ghostwhite;
+}
+.cars{
+    border: 2px solid black;
+    text-align: center;
+    background-color: gold;
+    padding: 20px;
+    margin: 20px;
+    color: darkgreen;
+    font-family: "DejaVu Sans Mono";
+    font-style: italic;
+}
+.FRUITS{
+    border: 2px solid yellow;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    font-family: "DejaVu Sans Mono";
+    font-style: italic;
+}
+.dogs{
+    border: 2px solid gold;
+    text-align: center;
+    background-color: darkgreen;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    font-family: "DejaVu Sans Mono";
+    font-style: italic;
+}
+#counrty3{
+    border: 2px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-style: italic;
+    font-family: "DejaVu Sans Mono";
+}
+#country2{
+    border: 2px solid red;
+    text-align: center;
+    background-color: red;
+    color: blue;
+    padding: 20px;
+    margin: 20px;
+    font-style: italic;
+    font-family: "DejaVu Sans Mono";
+}
+#country1{
+    border: 2px solid red;
+    text-align: center;
+    background-color: darkviolet;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    font-family: "DejaVu Sans Mono";
+    font-style: italic;
+}
+#country4{
+    border: 2px solid black;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-family: "DejaVu Sans Mono";
+    font-style: italic;
+}
